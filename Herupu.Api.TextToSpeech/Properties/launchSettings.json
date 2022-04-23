@@ -1,0 +1,42 @@
+﻿{
+  "$schema": "https://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:1028",
+      "sslPort": 0
+    }
+  },
+  "profiles": {
+    "Herupu.Api.TextToSpeech": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "applicationUrl": "http://localhost:5000",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "smartOneTTSEndpointToken": "https://eastus.api.cognitive.microsoft.com/sts/v1.0/issuetoken",
+        "smartOneTTSKey": "1c539b4f7ad544c69fbec89d89524eb0",
+        "smartOneTTSRegion": "eastus",
+        "smartOneTTSVoice": "pt-BR-FranciscaNeural",
+        "smartOneTTSVoiceLocale": "pt-BR",
+        "smartOneTTSEndpoint": "https://eastus.tts.speech.microsoft.com/cognitiveservices/v1"
+      }
+    },
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "smartOneTTSEndpoint": "https://eastus.api.cognitive.microsoft.com/sts/v1.0/issuetoken",
+        "smartOneTTSKey": "1c539b4f7ad544c69fbec89d89524eb0",
+        "smartOneTTSRegion": "eastus",
+        "smartOneTTSVoice": "pt-BR-FranciscaNeural",
+        "smartOneTTSVoiceLocale": "pt-BR"
+      }
+    }
+  }
+}
