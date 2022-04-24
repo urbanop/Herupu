@@ -6,7 +6,7 @@ using System.Text;
 namespace Herupu.Api.TextToSpeech.Controllers
 {
     [ApiController]
-    [Route("speech")]
+    [Route("api/speech")]
     public class SpeechController : ControllerBase
     {
         private readonly string _url;
