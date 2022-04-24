@@ -8,5 +8,6 @@ API Administrativa: https://herupuapiadministrativo.azurewebsites.net/swagger/in
 
 API de Leitura: https://herupuapitexttospeech.azurewebsites.net/swagger/index.html
 
-API de Aprendizado: 
+API de Aprendizado: https://herupuapiaprendizado.azurewebsites.net/swagger/index.html
+
 
