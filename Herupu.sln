@@ -7,6 +7,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Herupu.Api.TextToSpeech", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Herupu.Api.Administrativo", "Herupu.Api.Administrativo\Herupu.Api.Administrativo.csproj", "{3CCD13E5-FF33-4723-97F9-558EE8944275}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Herupu.Api.Aprendizado", "Herupu.Api.Aprendizado\Herupu.Api.Aprendizado.csproj", "{0605B720-7DFC-4093-A3F1-5A2C327F88FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Herupu.DAL", "Herupu.DAO\Herupu.DAL.csproj", "{C4BFBA12-EEC4-481C-A6DD-F77502DB268B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{3CCD13E5-FF33-4723-97F9-558EE8944275}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3CCD13E5-FF33-4723-97F9-558EE8944275}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3CCD13E5-FF33-4723-97F9-558EE8944275}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0605B720-7DFC-4093-A3F1-5A2C327F88FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0605B720-7DFC-4093-A3F1-5A2C327F88FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0605B720-7DFC-4093-A3F1-5A2C327F88FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0605B720-7DFC-4093-A3F1-5A2C327F88FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4BFBA12-EEC4-481C-A6DD-F77502DB268B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4BFBA12-EEC4-481C-A6DD-F77502DB268B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4BFBA12-EEC4-481C-A6DD-F77502DB268B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4BFBA12-EEC4-481C-A6DD-F77502DB268B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

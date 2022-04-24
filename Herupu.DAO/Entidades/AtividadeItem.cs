@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Text.Json.Serialization;
 
-namespace Herupu.Api.Administrativo.Models
+namespace Herupu.DAO.Entidades
 {
     public class AtividadeItem
     {

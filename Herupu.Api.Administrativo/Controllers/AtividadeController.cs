@@ -1,5 +1,5 @@
-﻿using Herupu.Api.Administrativo.Models;
-using Herupu.Api.Administrativo.Repository;
+﻿using Herupu.DAO.Entidades;
+using Herupu.DAO.Repositorios;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Http.Extensions;
 using Microsoft.AspNetCore.Mvc;
@@ -42,7 +42,6 @@ namespace Herupu.Api.Administrativo.Controllers
             try
             {
                 atividadeRepository.Inserir(atividade);
-                atividade.IdAtividade = new Random().Next();
 
                 var location = new Uri(Request.GetEncodedUrl() + atividade.IdAtividade);
 

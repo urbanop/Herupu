@@ -1,8 +1,8 @@
-﻿using Herupu.Api.Administrativo.Models;
-using Herupu.Api.Administrativo.Repository.Context;
+﻿using Herupu.DAL.Context;
+using Herupu.DAO.Entidades;
 using Microsoft.EntityFrameworkCore;
 
-namespace Herupu.Api.Administrativo.Repository
+namespace Herupu.DAO.Repositorios
 {
     public class AtividadeItemRepository
     {

@@ -1,8 +1,9 @@
-﻿using Herupu.Api.Administrativo.Models;
-using Herupu.Api.Administrativo.Repository.Context;
+﻿
+using Herupu.DAL.Context;
+using Herupu.DAO.Entidades;
 
-namespace Herupu.Api.Administrativo.Repository
-{
+namespace Herupu.DAO.Repositorios
+{ 
     public class AtividadeRepository
     {
         // Propriedade que terá a instância do DataBaseContext
